@@ -13,7 +13,7 @@ pipeline {
                  gcloud auth activate-service-account --key-file="${GCLOUD_CRED}"
                  gcloud compute zones list
                  gcloud projects list
-                 gcloud compute instances create my-instance --zone us-east1-b
+                 gcloud compute instances create my-instance2 --zone us-east1-b
                 '''
               }
         }
