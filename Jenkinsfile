@@ -13,6 +13,7 @@ pipeline {
                  gcloud auth activate-service-account --key-file="${GCLOUD_CRED}"
                  gcloud compute zones list
                  gcloud projects list
+                 gcloud compute instances create my-instance –machine-type g1-small
                 '''
               }
         }
