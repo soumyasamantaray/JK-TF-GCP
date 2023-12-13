@@ -1,8 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Git checkout')
-        
+       
         stage('Initialize'){
             steps{
                 sh 'terraform init'
