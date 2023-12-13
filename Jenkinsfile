@@ -14,6 +14,7 @@ pipeline {
                  gcloud compute zones list
                  gcloud projects list
                  gcloud compute instances create my-instance2 --zone us-east1-b
+                 terraform init
                 '''
               }
         }
