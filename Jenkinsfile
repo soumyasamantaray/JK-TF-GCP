@@ -10,6 +10,7 @@ pipeline {
 
             steps {
 
+                git branch: 'master', url: 'https://github.com/soumyasamantaray/JK-TF-GCP'
 
             }
 
