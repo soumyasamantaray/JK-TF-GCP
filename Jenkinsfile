@@ -6,16 +6,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-
-            steps {
-
-                git branch: 'master', url: 'https://github.com/soumyasamantaray/JK-TF-GCP'
-
-            }
-
-        }
-
+ 
         stage('Terraform init') {
 
             steps {
