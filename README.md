@@ -1,3 +1,5 @@
-# CB_with_GCP
+"# practice-GCP-ALL (Project)"
 
-This is a test for cloud build.
+
+            This repo is meant for parctice all GCP resources.
+

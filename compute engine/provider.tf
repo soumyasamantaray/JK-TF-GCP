@@ -11,7 +11,7 @@ provider "google" {
   project = "terraform-p-382808"
   region = "us-central1-a"
   zone = "us-central1-a"
-  credentials = "terraform-p-382808-439ee5e4ea4f.json"
+  credentials = "terra_key.json"
 }
 
 
